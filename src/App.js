@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Landing1 from './components/Landing1';
 import Landing2 from './components/Landing2';
