@@ -9,3 +9,46 @@
 
 }
 
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 50%;
+  right: 60%;
+}
+
+.imgtext{
+  z-index: 5;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 20px;
+  display: block;
+  text-shadow: 2px 2px 0px rgb(255 255 255);
+  font-family: Poppins, Arial, Tahoma, sans-serif;
+  letter-spacing: 0px;
+  visibility: inherit;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+
+  /* apply media quries for text */
+}
+
+@media screen and (max-width : 600px) {
+  .imgtext{
+    font-size: 17px;
+  }
+}
+
+/* h1 {
+  font-size: 5.9vw;
+  }
+  h2 {
+  font-size: 3.0vh;
+  }
+  p {
+  font-size: 2vmin;
+  } */
