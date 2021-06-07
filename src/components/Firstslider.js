@@ -118,7 +118,6 @@ function Firstslider() {
         backButton={
           <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
             {theme.direction === 'rtl' ? <KeyboardArrowRight /> : <KeyboardArrowLeft />}
-            
           </Button>
         }
       />

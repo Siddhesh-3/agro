@@ -30,12 +30,11 @@ const Landing1 = () => {
                             }} />
                     </Hidden>
                 </Grid>
-                
+
                 <Grid container item xs={12} spacing={0}>
                     <div>
                    <Firstslider/>
                     </div>
-
                 </Grid>              
             </Grid>
         </div>
