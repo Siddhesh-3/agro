@@ -2,6 +2,7 @@
 
 .menu{
   color:black;
+  cursor:pointer;
 }
 
 .menu:hover{
@@ -37,11 +38,87 @@
   /* apply media quries for text */
 }
 
+.slide2{
+  padding: 10%;
+}
+
+.slide3{
+  padding:5%;
+}
+
+.crop{
+  display: block;
+  margin: auto;
+  
+}
+
+.cropname{
+text-align: center;
+font-size: 60px;
+font-family: "Poppins", Arial, Tahoma, sans-serif;
+
+}
+
+.cropname2{
+  text-align: center;
+}
+
+
+.landing3{
+  background: url(https://ariesagro.com/wp-content/uploads/2019/01/bgimage.jpg);
+  background-size: 50% auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+
 @media screen and (max-width : 600px) {
   .imgtext{
     font-size: 17px;
   }
+
+  .slide2{
+    padding:15%;
+  }
+  .cropname{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Poppins", Arial, Tahoma, sans-serif;
+    }
+  .crop{
+      display: block;
+      margin: auto;
+      height: 18%;
+      width:18%;
+      
+    }
 }
+
+
+
+
+
+
+
+
+
+
+/* .popove{
+  color:black;
+}
+
+.popove:hover{
+  color:#569f4f;
+  background-color: gray;
+  display: block
+
+} */
+
+
+
+
+
 
 /* h1 {
   font-size: 5.9vw;

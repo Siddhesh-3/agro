@@ -1,4 +1,4 @@
-import { Button, Grid, Hidden } from '@material-ui/core'
+import { Grid, Hidden } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu';
 import React from 'react'
 import "../App.css"
@@ -15,14 +15,20 @@ import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) =>({
     list: {
         width: 250,
     },
     fullList: {
         width: 'auto',
     },
-});
+    root: {
+        display: 'flex',
+    },
+     paper: {
+        marginRight: theme.spacing(2)
+     }
+}));
 
 const Landing1 = () => {
 
@@ -30,6 +36,7 @@ const Landing1 = () => {
     const [state, setState] = React.useState({
         right: false,
     });
+    
 
     const toggleDrawer = (anchor, open) => (event) => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
