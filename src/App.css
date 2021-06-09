@@ -95,11 +95,34 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
     }
 }
 
+.newsname{
+    text-align: center;
+    font-size: 28px;
+    font-family: "Poppins", Arial, Tahoma, sans-serif;  
+}
 
 
 
 
+.news{
+  display: block;
+  margin: auto;
+}
 
+.slide4{
+  padding: 10%;
+
+}
+
+.newsimg{
+  height: 260px;
+}
+
+.newsimg1{
+
+  margin: 100px;
+
+}
 
 
 
