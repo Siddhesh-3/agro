@@ -52,6 +52,11 @@
   
 }
 
+.crop2{
+  margin:auto;
+  
+}
+
 .cropname{
 text-align: center;
 font-size: 60px;
@@ -69,9 +74,19 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
   background-size: 50% auto;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: left top;
+  /* background-position: left top; */
 }
 
+
+.lan3text{
+  font-size: 50px;
+  font-family: "Poppins", Arial, Tahoma, sans-serif;
+  margin-left: 10%;
+}
+
+.productimg{
+ height: 300px;
+}
 
 @media screen and (max-width : 600px) {
   .imgtext{
@@ -92,6 +107,15 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
       height: 18%;
       width:18%;
       
+    }
+    .lan3text{
+      font-size: 20px;
+      font-family: "Poppins", Arial, Tahoma, sans-serif;
+      margin-left: 10%;
+    }
+    .crop2{
+      margin:auto;
+      height: 70%;
     }
 }
 

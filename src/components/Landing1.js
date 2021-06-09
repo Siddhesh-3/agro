@@ -128,8 +128,8 @@ const Landing1 = () => {
                     <Hidden xsDown>
                         <h4 className="menu" >Home</h4>
                         <h4 className="menu" style={{ marginLeft: "8%" }}>Product&Services</h4>
-                        <h4 className="menu" style={{ marginLeft: "8%" }}>blank</h4>
                         <h4 className="menu" style={{ marginLeft: "8%" }}>Crops</h4>
+                        <h4 className="menu" style={{ marginLeft: "8%" }}>blank</h4>
                         <h4 className="menu" style={{ marginLeft: "8%" }}>About Us</h4>
                         <h4 className="menu" style={{ marginLeft: "8%" }}>More</h4>
                     </Hidden>
