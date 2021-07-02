@@ -88,7 +88,20 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
  height: 300px;
 }
 
+.logo{
+  height: 55%;
+  width:68%;
+  margin-left: 10%;
+  padding:4%;
+}
+
 @media screen and (max-width : 600px) {
+  .logo{
+    height: 75%;
+    width:100%;
+    margin-left: 20%;
+    padding:1%;
+  }
   .imgtext{
     font-size: 17px;
   }
@@ -96,6 +109,7 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
   .slide2{
     padding:15%;
   }
+
   .cropname{
     text-align: center;
     font-size: 28px;
@@ -117,6 +131,10 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
       margin:auto;
       height: 70%;
     }
+    .landing3{
+      background-size: 100% auto;
+      /* background-position: left top; */
+    }
 }
 
 .newsname{
@@ -134,7 +152,7 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
 }
 
 .slide4{
-  padding: 10%;
+  padding: 5%;
 
 }
 
@@ -149,7 +167,52 @@ font-family: "Poppins", Arial, Tahoma, sans-serif;
 }
 
 
+/*  login page icon css */
+#fa{
+  color: #dc3545;
+}
 
+a{
+  color: #333;
+  
+}
+/* fb */
+a1{
+  color:  #333;
+  font-size: 30px;
+ 
+}
+a1:hover{
+  color: 	#4267B2;
+  cursor: pointer;
+}
+/* insta */
+a2{
+  color:  #333;
+  font-size: 30px;
+}
+a2:hover{
+  color: #1DA1F2;
+  cursor: pointer;
+}
+/* twitter */
+a3{
+  color:  #333;
+  font-size: 30px;
+}
+a3:hover{
+  color: #E1306C;
+  cursor: pointer;
+}
+/* linkedin */
+a4{
+  color:  #333;
+  font-size: 30px;
+}
+a4:hover{
+  color:  #2867B2	;
+  cursor: pointer;
+}
 
 /* .popove{
   color:black;

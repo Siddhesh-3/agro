@@ -40,11 +40,11 @@ const Landing3 = () => {
         </Grid>
 
         <Grid container item xs={6}>
-        <h1 className="lan3text">Our Range of<br></br> Agricultural Products</h1>
+        <h1 className="lan3text">विक्रीसाठी<br></br> उपलब्ध औषधे</h1>
         </Grid>
 
         </Grid>       
-            <div className="slide3">
+            <div className="slide3" >
             <Carousel
                   swipeable={true}
                   responsive={responsive}

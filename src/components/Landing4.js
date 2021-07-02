@@ -14,8 +14,8 @@ const Landing4 = () => {
         },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 4,
-            slidesToSlide: 4
+            items: 3,
+            slidesToSlide: 3
         },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
@@ -31,10 +31,10 @@ const Landing4 = () => {
 
 
     return (
-        <div style={{marginTop:"5%"}}>
+        <div style={{marginTop:"4%"}}>
             <div>
                 <img src="News.jpg" alt="news" className="news"></img>
-                <h1 className="newsname">News & Updates</h1>
+                <h1 className="newsname">बातम्या आणि अद्यतने</h1>
             </div>
             <div className="slide4">
             <Carousel
@@ -49,10 +49,12 @@ const Landing4 = () => {
                   transitionDuration={500}
                   removeArrowOnDeviceType={["tablet", "mobile"]}
             >
-                <div className="newsimg">
-                <img src="news1.jpg" className="newsimg" alt="news1"></img>
-                <p style={{textAlign:"center"}}>Eastern Region Rabi Booking & Flash Sale, Kolkata Sept 2018</p>
+                <div>
+                <img src="news1.jpeg" className="newsimg" alt="news1"></img>
+                <p style={{textAlign:"center"}}>शीतगृह प्रकल्प </p>
+
                 </div>
+
                 <div className="newsimg"> 
                 <img src="news2.jpeg" className="newsimg" alt="news2"></img>
                 <p style={{textAlign:"center"}}>Aries is Brand of choice for millions of farmers</p>

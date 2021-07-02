@@ -7,21 +7,20 @@ const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const tutorialSteps = [
   {
-    label: 'Serving farmar all over the world',
-    imgPath:
-      '	https://ariesagro.com/wp-content/uploads/2019/01/Crop2.jpg',
+    label: 'टोमॅटो च्य प्लॉट ला प्रत्यक्ष भेट',
+    imgPath:"first.jpg"
     
   },
   {
     label: 'Manufacturing Quality of Products',
     imgPath:
-      'https://ariesagro.com/wp-content/uploads/2019/01/slide1.jpg',
+      'second.jpg',
     
   },
   {
     label: 'Award Winning Marketing',
     imgPath:
-      'https://ariesagro.com/wp-content/uploads/2019/01/slide2.jpg',
+    '	third.jpg',
      
   }
 
@@ -31,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: '100%',
     flexGrow: 1,
+     
   },
   header: {
     position: 'absolute',
@@ -48,6 +48,9 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: '100%',
     overflow: 'hidden',
     width: '100%',
+    // overflow: 'hidden',
+    // overflowY: 'hidden',
+    // overflowX: 'hidden',
     
   },
 }));

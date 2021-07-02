@@ -34,8 +34,8 @@ const Landing2 = () => {
         <div style={{marginTop:"5%"}}>
             <div>
                 <img src="crop1.png" alt="crop" className="crop"></img>
-                <h1 className="cropname">Crops We Nourish</h1>
-                <p className="cropname2">Aries offers diverse crop nourishment products ranging from Chelates to water soluble micronutrients & fertilizers.</p>
+                <h1 className="cropname">पिके </h1>
+                <p className="cropname2">मेष चीलेट्सपासून पाण्यामध्ये विरघळणारे मायक्रोन्यूट्रिएंट्स आणि खते यांच्यापासून विविध पिकाचे पोषण आहार देतात.</p>
             </div>
             <div className="slide2">
             <Carousel
@@ -52,27 +52,39 @@ const Landing2 = () => {
             >
                 <div>
                     <img src="potato.png" alt="potato"></img>
-                    <p style={{marginLeft:"40%"}}>Potato</p>
+                    <p style={{marginLeft:"40%"}}>बटाटा</p>
                 </div>
                 <div> 
-                <img src="citrus.png" alt="citrus"></img>
-                <p style={{marginLeft:"40%"}}>Citrus</p>
+                <img src="m.png" alt="citrus"></img>
+                <p style={{marginLeft:"40%"}}>मिरची</p>
                 </div>
                 <div>
-                <img src="cauliflower.png" alt="cauliflower"></img>
-                <p style={{marginLeft:"40%"}}>Cauliflower</p>
+                <img src="soya.png" alt="cauliflower"></img>
+                <p style={{marginLeft:"40%"}}>सोयाबीन</p>
                 </div>
                 <div>
-                <img src="potato.png" alt="potato"></img>
-                <p style={{marginLeft:"40%"}}>Potato</p>
+                <img src="water.png" alt="potato"></img>
+                <p style={{marginLeft:"40%"}}>कलिंगड</p>
                 </div>
                 <div>
-                <img src="cauliflower.png" alt="cauliflower"></img>
-                <p style={{marginLeft:"40%"}}>Cauliflower</p>
+                <img src="maka.png" alt="cauliflower"></img>
+                <p style={{marginLeft:"40%"}}>मका</p>
                 </div>
                 <div> 
-                <img src="citrus.png" alt="citrus"></img>
-                <p style={{marginLeft:"40%"}}>Citrus</p>
+                <img src="mari.png" alt="citrus"></img>
+                <p style={{marginLeft:"40%"}}>झेंडू</p>
+                </div>
+                <div> 
+                <img src="bijli.png" alt="citrus"></img>
+                <p style={{marginLeft:"40%"}}>बिजली</p>
+                </div>
+                <div> 
+                <img src="shevanta.png" alt="citrus"></img>
+                <p style={{marginLeft:"40%"}}>शेवंती</p>
+                </div>
+                <div> 
+                <img src="aster.png" alt="citrus"></img>
+                <p style={{marginLeft:"40%"}}>ॲस्टर</p>
                 </div>
             </Carousel>
             </div>
