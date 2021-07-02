@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/agro/static/css/main.7d2886bc.chunk.css",
+    "main.js": "/agro/static/js/main.685d63bf.chunk.js",
+    "main.js.map": "/agro/static/js/main.685d63bf.chunk.js.map",
+    "runtime-main.js": "/agro/static/js/runtime-main.6c66b604.js",
+    "runtime-main.js.map": "/agro/static/js/runtime-main.6c66b604.js.map",
+    "static/css/2.34ccdd21.chunk.css": "/agro/static/css/2.34ccdd21.chunk.css",
+    "static/js/2.daa27522.chunk.js": "/agro/static/js/2.daa27522.chunk.js",
+    "static/js/2.daa27522.chunk.js.map": "/agro/static/js/2.daa27522.chunk.js.map",
+    "static/js/3.a6ec932a.chunk.js": "/agro/static/js/3.a6ec932a.chunk.js",
+    "static/js/3.a6ec932a.chunk.js.map": "/agro/static/js/3.a6ec932a.chunk.js.map",
+    "index.html": "/agro/index.html",
+    "static/css/2.34ccdd21.chunk.css.map": "/agro/static/css/2.34ccdd21.chunk.css.map",
+    "static/css/main.7d2886bc.chunk.css.map": "/agro/static/css/main.7d2886bc.chunk.css.map",
+    "static/js/2.daa27522.chunk.js.LICENSE.txt": "/agro/static/js/2.daa27522.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/agro/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c66b604.js",
+    "static/css/2.34ccdd21.chunk.css",
+    "static/js/2.daa27522.chunk.js",
+    "static/css/main.7d2886bc.chunk.css",
+    "static/js/main.685d63bf.chunk.js"
+  ]
+}
